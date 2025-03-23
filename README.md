@@ -83,3 +83,5 @@ alembic revision --autogenerate -m "Update models with correct table names and r
 ```sh
 alembic upgrade head
 ```
+
+db url = postgresql+psycopg2://app_user:app_password@db/app
